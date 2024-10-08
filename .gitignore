@@ -2,7 +2,11 @@ build/
 .dart_tool/
 _resource/
 .vscode/
-android/
+android/.gradle/
+android/fastlane/
+android/gradle/
+
+
 ios/
 macos/
 web/
