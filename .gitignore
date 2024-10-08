@@ -1,0 +1,10 @@
+build/
+.dart_tool/
+_resource/
+.vscode/
+android/
+ios/
+macos/
+web/
+windows/
+configs/

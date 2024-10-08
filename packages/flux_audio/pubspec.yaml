@@ -1,0 +1,28 @@
+name: flux_audio
+description: A Extended package for FluxStore apps
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  fstore:
+    path: ../../
+  inspireui: 2.2.2
+
+  ### ▶️ Audio Feature - support FluxNews only
+  ### Search "Enable Audio feature" & uncomment to use - https://tppr.me/Z1TX5
+  audio_video_progress_bar: ^2.0.3
+  audio_service: ^0.18.13
+  just_audio: ^0.9.38
+  image_fade: 0.6.2
+  visibility_detector: 0.4.0+2
+  easy_debounce: 2.0.3
+
+flutter:
+  uses-material-design: true
+
